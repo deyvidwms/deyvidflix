@@ -1,21 +1,22 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Logo from '../../assets/img/deyvidflix-red.png';
 import './Menu.css';
 import Button from '../Button';
-
+// import ButtonLink from './components/ButtonLink';
 
 function Menu() {
-    return (
-        <nav className="Menu">
-            <a href="/">
-                <img className="Logo" src={Logo} alt="DeyvidFlix logo"/>
-            </a>
+  return (
+    <nav className="Menu">
+      <Link to="/">
+        <img className="Logo" src={Logo} alt="AluraFlix logo" />
+      </Link>
 
-            <Button as="a" className="ButtonLink" href="/">
-                Novo Vídeo
-            </Button>
-        </nav>
-    );
+      <Button as={Link} className="ButtonLink" to="/cadastro/video/">
+        Novo vídeo
+      </Button>
+    </nav>
+  );
 }
 
 export default Menu;
