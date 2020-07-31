@@ -5,7 +5,6 @@ import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
 
-
 function CadastroCategoria() {
   const valoresIniciais = {
     titulo: '',
