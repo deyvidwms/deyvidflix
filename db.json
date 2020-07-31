@@ -1,4 +1,3 @@
-
 {
   "categorias": [
     {
@@ -187,6 +186,12 @@
       "categoriaId": 5,
       "titulo": "Resident Evil 8",
       "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+    },
+    {
+      "titulo": "Video Padrão",
+      "url": "https://youtu.be/ZqmIFolThZo?list=RDZqmIFolThZo",
+      "categoriaId": 1,
+      "id": 25
     }
   ]
 }
